@@ -8,3 +8,8 @@ const randomNumber = () => {
 
 img1.setAttribute("src", `./images/dice${randomNumber()}.png`);
 img2.setAttribute("src", `./images/dice${randomNumber()}.png`);
+
+btn.onclick = () => {
+  img1.setAttribute("src", `./images/dice${randomNumber()}.png`);
+  img2.setAttribute("src", `./images/dice${randomNumber()}.png`);
+};
