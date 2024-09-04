@@ -42,6 +42,7 @@ img {
   font-family: "Indie Flower", cursive;
   font-weight: 700;
   transition: 0.5s;
+  margin-top: 30px;
 }
 
 .btn:hover {
